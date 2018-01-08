@@ -1,0 +1,46 @@
+@media (max-width: 768px) {
+   .menu li{
+     display: none;
+   }
+   .menu ul{
+     background-image: url("../assets/images/menu.jpg");
+     background-repeat: no-repeat;
+     float: right;
+     margin: 26px 9px;
+     width: 50px;
+     background-size: 40px;
+     height: 40px;
+   }
+   .firstsec{
+     width: 100%;
+     background-image: url("http://dummyimage.com/1370x400");
+     background-position: center;
+   }
+   .secsec{
+     width: 100%;
+     height: 500px;
+   }
+   .item-1{
+     width: 100%;
+   }
+   .item-2{
+     width: 100%;
+   }
+   .thirdsec{
+     width: 100%;
+     height: 1050px;
+   }
+   .item-3{
+     width: 100%;
+   }
+   .item-4{
+     width: 100%;
+   }
+   .item-5{
+     width: 100%;
+     height: auto;
+   }
+   .footer{
+     width: 100%;
+   }
+ }
