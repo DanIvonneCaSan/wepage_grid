@@ -9,9 +9,9 @@
     width: 100%;
     grid-template-columns: repeat(12,8.3%);
     grid-template-areas: "header header"
-                         "secc-1 secc-1"
-                         "secc-2 secc-2"
-                         "secc-3 secc-3"
+                         "firstsec firstsec"
+                         "secsec secsec"
+                         "thirdsec thirdsec"
                          "footer footer";
 }
 
@@ -21,7 +21,7 @@
 
 .header{
   grid-column: 1/13;
-  background: #373f5e;
+  background: #343A40;
   height: 100px;
   display: inline-block;
 }
@@ -40,12 +40,12 @@
   margin-right: 50px;
 }
 
-.secc-1{            /*Primera seccion */
+.firstsec{            /*Primera seccion */
   grid-column: 1/13;
   background-image: url("http://dummyimage.com/1370x400");
   height: 400px;
 }
-.secc-1 h1{
+.firstsec h1{
   text-align: center;
   color: white;
   margin-top: 80px;
@@ -64,7 +64,7 @@ button[type="button"]{     /*Segunda secciòn*/
   margin: 1%;
 }
 
-.secc-2{
+.secsec{
   grid-column: 2/12;
   height: 300px;
   margin-top: 40px;
@@ -85,7 +85,7 @@ button[type="button"]{     /*Segunda secciòn*/
   text-align: left;
 }
 
-.secc-3{        /*Tercera secciòn*/
+.thirdsec{        /*Tercera secciòn*/
   grid-column: 2/12;
   height: 500px;
   display: inline-block;
@@ -103,7 +103,7 @@ button[type="button"]{     /*Segunda secciòn*/
 
 .footer{
   grid-column: 1/13;
-  background: #373f5e;
+  background: #343A40;
   color: white;
   height: 100px;
 }
